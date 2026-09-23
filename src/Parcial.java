@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package menu;
+
 import java.util.Scanner;
 
 /**
@@ -14,7 +14,7 @@ public class Parcial {
     
    public static void main(String[] args) {
        Scanner scanner = new Scanner(System.in);
-       double saldo = 500.000, consignar = 0, retirar = 0, saldoActual = 0, transaccion = 0, suma = 0;
+       double saldo = 500.000, consignar = 0, retirar = 0, transaccion = 0, suma = 0;
        int opcion = 0;
        
        System.out.println("*****Cajero Automatico*****\n");
@@ -61,6 +61,8 @@ public class Parcial {
            }
            
        }while(opcion != 5);
+
+       scanner.close();
       
       
    }

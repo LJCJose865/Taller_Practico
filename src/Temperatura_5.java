@@ -3,17 +3,10 @@ import java.util.Arrays;
 
 public class Temperatura_5 {
 
-    public static void temperatura(int[7], String semana = {"lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"}){
+    public static void registroTemperatura(double[] temperatura String[] dias){
+        
 
-        double temPromedio = 0;
-        double tempAlta = 0;
-        double tempBaja = 0;
-        double temperatura = 0;
-    
-        System.out.println("===== Sistema de Ingreso de Temperaturas =====");
-        System.out.println("\nIngresa la temperatura de cada dia de la semana: ");
-         temperratura = scanner.nextDouble();
-        for (int i = 0; i < dia.length; i++){}
+        
     }    
     
 
